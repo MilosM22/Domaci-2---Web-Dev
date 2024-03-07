@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1400px;
+  margin: 40px auto;
+  background-color: #faf8ef;
+  padding: 20px 40px 0 40px;
+}
+
+.main-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 46px;
+  transform: scaleY(1.7);
+  margin-bottom: 32px;
+  padding: 24px 0 24px 0;
+}
+
+.time {
+  border-top: 4px solid #343a40;
+  border-bottom: 4px solid #343a40;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.time time {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 800;
+  transform: scaleY(1.4);
+  background-color: #dee2e6;
+}
+
+.article-heading {
+  font-size: 38px;
+  text-transform: uppercase;
+  transform: scaleY(1.4);
+  padding: 48px 0 18px 0;
+  letter-spacing: -1px;
+}
+
+.author {
+  padding-bottom: 12px;
+}
+
+.author-heading {
+  padding: 0 24px 0 0;
+  border-right: 4px solid #343a40;
+}
+
+.article-second-paragraph,
+.article-third-paragraph {
+  padding: 0 24px 0 10px;
+}
+
+.article-second-paragraph {
+  border-right: 4px solid #343a40;
+}
+
+.quote {
+  text-align: left;
+  font-size: 36px;
+  padding: 36px 36px;
+  font-weight: 600;
+  transform: scaleY(1.3);
+  letter-spacing: -2px;
+  margin-bottom: 36px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: 400px 400px 410px;
+  column-gap: 30px;
+}
+
+.subheading {
+  text-transform: uppercase;
+  padding: 32px 0 24px 0;
+  font-size: 28px;
+  transform: scaleY(1.6);
+}
+
+.list {
+  margin-left: 12px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.grid-3-cols p {
+  margin-bottom: 22px;
+}
+
+.img {
+  height: 250px;
+  width: auto;
+  filter: grayscale(1);
+}
+
+.image-and-caption {
+  float: left;
+  padding-right: 10px;
+}
+
+.image-and-caption figcaption {
+  font-weight: 600;
+  transform: scaleY(1.3);
+  text-align: center;
+}
+
+.grid-one,
+.grid-two {
+  padding-right: 12px;
+  border-right: 4px solid #343a40;
+}
